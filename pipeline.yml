@@ -23,7 +23,6 @@ jobs:
         - |
            git clone gist site
            cd repository && jekyll build && cp _site/* ../site && cd ../site
-           git pull
            git config --global user.email "somebody@special.praqma"
            git config --global user.name "praqma" && git add .
            git commit -m "updated gist"

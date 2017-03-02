@@ -113,7 +113,7 @@ resources:
 - name: gist
   type: git 
   source: 
-    uri: https://gist.github.com/4b2015849c31bfb860c6a021ba9ed63a.git
+    uri: https://gist.github.com/718bf9b5e148beb349362b83151779c4.git
     branch: master
     username: {{github-username}}
     password: {{github-password}}
@@ -121,7 +121,7 @@ resources:
 - name: github-pages
   type: git
   source: 
-    uri: https://github.com/Sharor/concourse-workshop.git
+    uri: https://github.com/josequaresma/concourse-workshop.git
     branch: gh-pages
     username: {{github-username}}
     password: {{github-password}}
